@@ -5,12 +5,12 @@ using UnityEngine;
 
 
 
-public class Player : MonoBehaviour
+public class Move : MonoBehaviour
 {
     [Header("Kinematic variables")]
     [Tooltip("m/s")]
     [SerializeField] float m_TranslationSpeed;
-    [Tooltip("°/s")]
+    [Tooltip("ï¿½/s")]
     [SerializeField] float m_RotationSpeed;
 
     public float speed = 5f;
