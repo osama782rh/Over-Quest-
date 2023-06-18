@@ -13,13 +13,4 @@ public class main_menu : MonoBehaviour
     {
         SceneManager.LoadScene(gameStartScene);
     }
-    public void QuitGame()
-    {
-        Application.Quit();
-    }
-    //public void ContextualMenu()
-    //{
-    //    GameObject.SetActive();
-    //}
-    
 }
